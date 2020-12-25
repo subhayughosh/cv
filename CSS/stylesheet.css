@@ -157,20 +157,8 @@ position: absolute;
   top: 23.9rem;
   left: 41.9rem;
 }
-.AMZN {
+.AMZN, .EK, .IND, .PMW {
   top: 10%;
-  left: 57%;
-}
-.EK {
-  top: 54%;
-  left: 57%;
-}
-.IND {
-  top: 50%;
-  left: 57%;
-}
-.PMW {
-  top: 70%;
   left: 57%;
 }
 .head {
