@@ -1,0 +1,273 @@
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.65);
+}
+/*General Declarations*/
+Body {
+  background-color: #c1e1ec;
+  font-family: Ubuntu, sans-serif;
+  margin: 0;
+  color: #382A51;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.3rem;
+}
+.heading {
+  letter-spacing: 0.7rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 11rem 0 3rem;
+}
+.cpointer {
+  cursor: pointer;
+}
+.bolddot7rem {
+  letter-spacing: 0.7rem;
+  font-weight: bold;
+}
+.onehrem {
+  font-size: 1.5rem;
+}
+.tworem {
+  font-size: 2rem;
+}
+.lineheight2 {
+  line-height: 2;
+}
+
+/* NAVBAR */
+.navcustomisation {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    letter-spacing: 0;
+    background-color: #c1e1ec;
+}
+/*top_container*/
+.subhayu:hover {
+  zoom: 130%;
+}
+@media (min-width: 992px) {
+  .intro-col {
+    padding: 11rem 0 0 3rem;
+  }
+}
+.intro {
+  font-family: Montserrat, sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+/*middle_container*/
+/*middle_container - top padding*/
+.coll {
+  padding-top: 8rem;
+}
+/*middle_container - Image size*/
+.image2rem {
+  height: 2rem;
+}
+.image2hrem {
+  height: 2.5rem;
+}
+.image3rem {
+  height: 3rem;
+}
+.image3hrem {
+  height: 3.5rem;
+}
+.image4rem {
+  height: 4rem;
+}
+.image15rem{
+  width: 15rem;
+}
+.image25rem {
+  width: 25rem;
+}
+/*middle_container left_middle and right_middle visibility*/
+.imagel, .imager {
+  visibility: hidden;
+}
+
+/*middle_container hover animations*/
+.left_middle:hover~.imagel {
+  visibility: visible;
+}
+.coll:hover {
+  color: white;
+  font-weight: bolder;
+}
+.coll:hover ~.colc {
+  visibility: hidden;
+}
+.right_middle:hover~.imager {
+  visibility: visible;
+}
+
+/*bottom_container*/
+
+/*map poistioining*/
+#contb {
+  background-image: url("images/mapf.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 35rem;
+  position: relative;
+}
+/* logo and text positioning */
+.logos1a, .logos2a, .logos3a, .logos4a, .AMZN, .EK, .IND, .PMW {
+visibility: hidden;
+position: absolute;
+}
+.logos1, .logos2, .logos3, .logos4 {
+position: absolute;
+}
+.logos1{
+  top: 4.5rem;
+  left: 7.5rem;
+}
+.logos1a{
+  top: 8rem;
+  left: 7.5rem;
+}
+.logos2{
+  top: 19.5rem;
+  left: 30rem;
+}
+.logos2a{
+  top: 18rem;
+  left: 30rem;
+}
+.logos3{
+  top: 18rem;
+  left: 41rem;
+}
+.logos3a{
+  top: 21.5rem;
+  left: 41rem;
+}
+.logos4{
+  top: 25.4rem;
+  left: 41.9rem;
+}
+.logos4a{
+  top: 23.9rem;
+  left: 41.9rem;
+}
+.AMZN {
+  top: 10%;
+  left: 57%;
+}
+.EK {
+  top: 54%;
+  left: 57%;
+}
+.IND {
+  top: 50%;
+  left: 57%;
+}
+.PMW {
+  top: 70%;
+  left: 57%;
+}
+.head {
+  border-bottom: dotted;
+  border-color: white;
+  padding-bottom: 0.5rem;
+  line-height: 4rem;
+}
+
+/*Bottom container animation*/
+.logos1:hover~.AMZN {
+  visibility: visible;
+}
+.logos1:hover~.logos1a {
+  visibility: visible;
+}
+.logos2:hover~.EK {
+  visibility: visible;
+}
+.logos2:hover~.logos2a {
+  visibility: visible;
+}
+.logos3:hover~.IND {
+  visibility: visible;
+}
+.logos3:hover~.logos3a {
+  visibility: visible;
+}
+.logos4:hover~.PMW {
+  visibility: visible;
+}
+.logos4:hover~.logos4a {
+  visibility: visible;
+}
+
+/*Bottom Container2*/
+.product_logo1, .product_logo2, .product_logo3, .product_logo4 {
+  height: 10rem;
+}
+.product_logo1{
+padding: 0 1.3rem;
+}
+.product_logo2{
+padding: 0 3rem;
+}
+.product_logo3{
+padding: 0 2.6rem;
+}
+.product_logo4{
+  padding: 0 1.3rem;
+}
+.hrd {
+  border: none;
+  border-bottom: dotted white;
+  visibility: hidden;
+  background-color: inherit;
+  opacity: 1;
+}
+.product_text1, .product_text2, .product_text3, .product_text4 {
+  visibility: hidden;
+}
+.product_logo1:hover~.product_text1 {
+  visibility: visible;
+}
+.product_logo2:hover~.product_text2 {
+  visibility: visible;
+}
+.product_logo3:hover~.product_text3 {
+  visibility: visible;
+}
+.product_logo4:hover~.product_text4 {
+  visibility: visible;
+}
+
+/* CAROUSAL */
+.myday{
+  padding: 2rem 0 9rem;
+}
+
+/*FOOTER section*/
+.footer {
+  margin-top: 11rem;
+}
+.hr_footer {
+  border: none;
+  border-bottom: dotted white;
+  background-color: inherit;
+  opacity: 1;
+  margin: 0;
+}
+.cr_p {
+  font-size: 1rem;
+  color: white;
+}
+.align-middle{
+  margin-top: 0.5rem;
+}
+.hoverchange:hover {
+  color: #fff;
+}
