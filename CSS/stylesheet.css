@@ -111,7 +111,7 @@ Body {
 
 /*map poistioining*/
 #contb {
-  background-image: url("/cv/CSS/Images/mapf.png");
+  background-image: url("cv/CSS/Images/mapf.png");
   background-repeat: no-repeat;
   background-size: auto;
   min-height: 35rem;
